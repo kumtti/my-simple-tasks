@@ -2,6 +2,9 @@
 
 간단한 할 일 목록 앱 만들어줘
 
+
+GitHub에서 수정한 테스트 문장입니다.
+
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
