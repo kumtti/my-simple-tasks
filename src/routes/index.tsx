@@ -5,9 +5,9 @@ import { Check, Plus, Trash2 } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "오늘의 할 일" },
+      { title: "내 할일 목록" },
       { name: "description", content: "간단하고 깔끔한 할 일 목록 앱" },
-      { property: "og:title", content: "오늘의 할 일" },
+      { property: "og:title", content: "내 할일 목록" },
       { property: "og:description", content: "간단하고 깔끔한 할 일 목록 앱" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -77,7 +77,7 @@ function Index() {
       <main className="w-full max-w-md">
         <header className="mb-8">
           <h1 className="text-3xl font-bold tracking-tight text-foreground">
-            오늘의 할 일
+            내 할일 목록
           </h1>
           <p className="mt-1 text-sm text-muted-foreground">
             {todos.length === 0
